@@ -1,0 +1,510 @@
+body{
+    background-color: #150805;
+}
+
+
+
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.nav-con{
+    width: 560px;
+    height: 60px;
+    float: left;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+nav ul{
+    list-style: none;}
+
+nav li{
+   float: left;
+   margin-left: 5px;
+   padding-top: 5px;
+   padding-right:20px;
+  
+}
+
+nav li:hover{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(178, 240, 128);
+    }
+
+
+header{
+        width: 100%;
+        height: 840px;
+        background-image: url(../assets/billie-eilish-american-singer-2021-5k-8k-5120x2880-6487.jpg);
+        background-size: cover;
+        padding-top: 150px;
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+}
+
+.nav-text{
+    color: white;
+    font-size: 18px;
+
+    
+}
+
+
+.search-bar {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .search-bar input[type="text"] {
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .search-bar button {
+    padding: 8px 10px;
+    background-color: #3b4b27;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.active{
+    color: rgb(178, 240, 128);
+   
+}
+
+
+h3{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h1{
+    font-size: 72px;
+    
+}
+
+.play-btn{
+    width: 250px;
+    height: 70px;
+    background-color: #150805;
+    color: #3b4b27;
+    border: 2px solid #2b2b2b;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.play-btn:hover{
+        background-color:  #3b4b27;
+        cursor: pointer;
+        color: white;
+        
+    }
+
+.shuffle-btn{
+    width: 250px;
+    height: 70px;
+    border: 2px solid #2b2b2b;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: 5px;
+    font-size: 24px;
+    float: right;
+
+}
+
+.shuffle-btn:hover{
+    background-color: #150805;
+    color: #3b4b27;
+    cursor: pointer;}
+
+
+.half{
+    width: 50%;
+
+}
+
+.ft-art-block2{
+    width: 600px;
+    height: 480px;
+    background-color: #885c38;
+    margin-top: -560px;
+    margin-right: 70px;
+    float: right;
+    z-index: 2;
+    position: inherit;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-right: 30px;
+    
+}
+
+.ft-art-block{
+    width:600px ;
+    height: 390px;
+    background-color: #cfbb95;
+    margin-left: 100px;
+    margin-bottom: 170px;
+    margin-top: -60px;
+    z-index: 2;
+    position: relative;
+  
+    
+}
+
+
+h4{
+    font-size: 24px;
+}
+
+.featured-art-text{
+    font-size: 48px;
+}
+
+.feat-art-p{
+    font-size: 18px;
+}
+
+.left-arrows{
+    width: 50px;
+    height: 50px;
+    margin-top: 110px;
+    margin-left: 290px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.left-arrows:hover{
+    cursor: pointer;
+    filter: invert(var(--value, 100%))
+}
+
+.right-arrows{
+    width: 50px;
+    height: 50px;
+    margin-left: 380px;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+
+.right-arrows:hover{
+    cursor: pointer;
+    filter: invert(var(--value, 100%))
+    }
+
+
+
+
+
+
+.col{
+    width: 227px;
+    height: 227px;
+  }
+
+ .img-fluid{
+    width: 227px;
+    height: 227px;
+  }
+ 
+ 
+
+h5{
+    color: white;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 227px;
+    margin-top: 157px;
+    height: 70px;
+    background-color: rgba(30, 25, 17, 0.731);
+    z-index: 1;
+    opacity: 0;
+  }
+
+
+  .col:hover .overlay {
+    opacity: 1;
+  }
+
+  h7{
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+h6{
+    margin-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.small-hrt{
+    width: 40px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+
+.col-4{
+    width: 227px;
+    height: 227px;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+
+.copyright-txt{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+.footer-icons{
+    margin-right: 50px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    filter: invert(var(--value, 100%));
+}
+
+.footer-icons:hover{
+    cursor: pointer;
+}
+
+.facebook-icon:hover{
+    filter: invert(var(--value, 70%));
+}
+
+.youtube-icon:hover{
+    filter: invert(var(--value, 70%));
+}
+
+.twitter-icon:hover{
+    filter: invert(var(--value, 70%));
+}
+
+.instagram-icon:hover{
+    filter: invert(var(--value, 70%));
+}
+
+.about-stream{
+
+    width: 500px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left:122px ;
+    
+    z-index: 1;
+    position: absolute;
+
+}
+
+.about-head{
+    font-size: 24px;
+    color: #885c38;
+    
+}
+
+.about-str{
+    font-size: 48px;
+    color: #885c38;
+}
+
+.about-p{
+    font-size: 18px;
+    color: #885c38;
+}
+
+
+.email-icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    filter: invert(var(--value, 100%));
+
+}
+
+
+.phone-icon{
+    float: right;
+    margin-left: 80px;
+    margin-right: 100px;
+    filter: invert(var(--value, 100%));
+
+}
+
+
+
+
+form{
+    width: 450px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 100px;
+    background-color:#885c38;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    float: right;
+    margin-right: 80px;
+    border-radius: 5%;
+}
+
+
+.input-element{
+    width: 90%;
+    height: 35px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #cfbb95;
+}
+
+.input-element::hover{
+    border-color: #150805;
+}
+
+select, .select-play-btn{
+    width: 95% !important;
+}
+
+
+.header-image{
+    width: 100%;
+    height:800px;
+    background-image: url(..//assets/pexels-wendy-wei-1190297.jpg);
+}
+
+.select-play-btn{
+    margin-top: 30px;
+    background-color: #cfbb95;
+    border-color: #150805;
+    font-style: bold;
+}
+
+.select-play-btn:hover{
+    color: white;
+    background-color: #150805;
+    border-color: #cfbb95;
+}
+
+
+.h3-2{
+    text-align: center;
+    color: white;
+    border-color: #009938;
+    font-size:30px;    
+}
+
+.map{
+    z-index: 1;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 122px;
+}
+
+
+.copyright-txt-2{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    margin-top: 750px;
+    font-weight: bold;
+    margin-left: 110px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.socials{
+    z-index: 1;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 900px;
+    margin-bottom: 30px;
+    filter: invert(var(--value, 70%));
+
+
+}
+
+.container-2 {
+    display: flex;
+  }
+
+  .col-2 {
+    margin-top: 200px;
+    margin-left: 70px;
+    flex: 1;
+    padding: 10px;
+
+  }
+
+  .p-song{
+    height: 10px;
+    border-bottom: 2px solid #3b4b27;
+  }
+/* 
+  .col-2:first-child {
+  }
+
+  .col-2:last-child {
+    border-bottom: 2px solid #000;
+  }
+ */
+  .mp-content{
+    width: 470px;
+    height: 470px;
+    margin-left: 122px;
+    margin-top: 120px;
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 140px;
+}
+
+
+
+.playlist-cover{
+    width: 470px;
+    height: 470px;
+    background-image: url(../assets/party-planning.original.jpg);
+    text-align: center;
+    padding-top: 235px;
+}
+
+
